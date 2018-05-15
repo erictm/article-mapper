@@ -1,0 +1,33 @@
+#map-canvas {
+   	margin: 0;
+   	padding: 0;
+   	height: 600px;
+   	max-width: none;
+}
+#map-canvas img {
+   	max-width: none !important;
+}
+#iw_container .iw_title {
+	font-size: 16px;
+	font-weight: bold;
+}
+.iw_content {
+	padding: 15px;
+}
+.iw_image {
+	float: left;
+	padding: 15px;
+}
+.article-location-category {
+	float: left;
+    padding: 0px 3px;
+    list-style-type: none;
+}
+.article-location-category a.current-category-slug {
+	font-weight: bold;
+}
+@media only screen and (max-device-width: 480px) {
+	.iw_excerpt {
+		display: none; /* no excerpt on mobile */
+	}
+}
